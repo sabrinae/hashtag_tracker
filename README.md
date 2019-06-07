@@ -1,7 +1,7 @@
 # hashtag_tracker
 Google Apps Script connected to spreadsheet that follows trending hashtags / hashtags we use on Instagram and Twitter
 
-# Twitter Location Trends API
+# <a href="https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place.html">Twitter Location Trends API</a>
 
 This API uses OAuth1 to generate the access keys and give access to the API. For the complete documentation on this library, <a href="https://github.com/gsuitedevs/apps-script-oauth1">click here</a>. Add the library key while in your Apps Script editor by going to Resources > Libraries and add the following:
 
@@ -60,6 +60,7 @@ for (var key in data[0].trends) {
   }
 ```
 
+For more information on working with JSON data in GAS, I highly recommend <a href="http://googleappscripting.com/json/">giving this a read</a>.
 This data is then pushed into the empty row array we have set up. Now, it's time to access the spreadsheet and take the ```row``` array and translate it into a row in the spreadsheet:
 
 ```

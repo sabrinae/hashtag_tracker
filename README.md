@@ -15,7 +15,7 @@ Digging into the Script
 -
 For this specific Twitter API, you will need a WOEID, which <a href="http://woeid.rosselliot.co.nz/lookup/minneapolis%20%20mn">you can find here</a>. The WOEID number you receive for your desired location will be added to the end of the API endpoint:
 
-```var url = "https://api.twitter.com/1.1/trends/place.json?id=<YOUR WOEID HERE>```
+```var url = "https://api.twitter.com/1.1/trends/place.json?id=<YOUR WOEID HERE>"```
 
 In this script, I have set up a basic if/else function that references the spreadsheet to work with a few different locations based on a cell's value:
 

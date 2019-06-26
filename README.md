@@ -13,7 +13,7 @@ Be sure to set up the callback URL as well in both your script as well as in you
 
 Digging into the Script
 -
-For this specific Twitter API, you will need a WOEID, which <a href="http://woeid.rosselliot.co.nz/lookup/minneapolis%20%20mn">you can find here</a>. Unfortunately, <a href="https://developer.yahoo.com/weather/documentation.html#woeid">Yahoo has disabled the WOEID API</a>. If you find the above link for finding WOEIDs doesn't work, simply go to: <a href="https://www.yahoo.com/news/weather/">. Enter your city, and the number at the end of the URL will be the WOEID.
+For this specific Twitter API, you will need a WOEID, which <a href="http://woeid.rosselliot.co.nz/lookup/minneapolis%20%20mn">you can find here</a>. Unfortunately, <a href="https://developer.yahoo.com/weather/documentation.html#woeid">Yahoo has disabled the WOEID API</a>. If you find the above link for finding WOEIDs doesn't work, simply go to <a href="https://www.yahoo.com/news/weather/">Yahoo's Weather page</a>. Enter your city, and the number at the end of the URL will be the WOEID.
     
 The WOEID number you receive for your desired location will be added to the end of the API endpoint:
 
